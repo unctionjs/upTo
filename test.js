@@ -1,13 +1,9 @@
-/* eslint-disable flowtype/require-parameter-type, flowtype/require-return-type */
+/* eslint-disable flowtype/require-parameter-type, flowtype/require-return-type, no-magic-numbers */
 import {test} from "tap"
 
-import tempLate from "./"
+import upTo from "./"
 
 test(({same, end}) => {
-  same(
-    tempLate(true),
-    false
-  )
-
+  same(upTo(5), [1, 2, 3, 4, 5])
   end()
 })
