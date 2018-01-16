@@ -5,7 +5,7 @@
 ![Stability][BADGE_STABILITY]
 ![Dependencies][BADGE_DEPENDENCY]
 
-> number -> Array<number>
+> number => Array<number>
 
 Just takes a maximum and produces an array of 1 to that number.
 
