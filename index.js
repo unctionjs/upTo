@@ -1,7 +1,8 @@
-import { range } from "ramda";
-import { inc } from "ramda";
+import {range} from "ramda";
+import {inc} from "ramda";
 const MINIMUM = 1;
 const rangeMinimum = range(MINIMUM);
-export default function upTo(maximum) {
+
+export default function upTo (maximum) {
   return rangeMinimum(inc(maximum));
 }
