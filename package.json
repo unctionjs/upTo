@@ -1,6 +1,6 @@
 {
   "name": "@unction/upto",
-  "version": "5.2.3",
+  "version": "5.2.4",
   "description": "Generate an array of numbers, from 1 to {{number}}",
   "keywords": [
     "unction",
